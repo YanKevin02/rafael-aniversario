@@ -1,47 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-   <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <div class="birthdayCard">
-      <div class="cardFront">
-        <div class="front-text">
-          <h3 class="happy">FELIZ</h3>
-          <h2 class="bday">ANIVERSÁRIO</h2>
-        </div>
-        <div class="wrap-deco">
-          <div class="decorations"></div>
-          <div class="decorationsTwo"></div>
-        </div>
-        <div class="wrap-decoTwo">
-          <div class="decorations"></div>
-          <div class="decorationsThree"></div>
-        </div>
-        <div class="plate">
-          <div class="cake"></div>
-          <div class="flame"></div>
-        </div>
-      </div>
 
-      <div class="cardInside">
-        <div class="inside-text">
-          <h3 class="happy">FELIZ</h3>
-          <h2 class="bday">ANIVERSÁRIO</h2>
-          <h3 class="toyou">!!!</h3>
-        </div>
-        <div class="wishes">
-          <p>Meu amigo, Rafael...</p>
-          <p>
-            Feliz aniversário!! Espero que seu dia seja cheio de muito amor e
-            risos! Que todos os seus desejos se realizem. Deus abençõe, muito obrigado por ser meu irmão de outra mãe!
-          </p>
-          <p class="name">Yan Kevin</p>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="welcomeFullscreen"
+    style="position:fixed;top:0;left:0;width:100vw;height:100vh;background:#000;z-index:2000;display:flex;flex-direction:column;justify-content:center;align-items:center;color:#cfe8ff;text-align:center;">
+    <h1 style="font-family:'Dancing Script',cursive;font-size:2.5rem;color:#00439b;text-shadow:0 0 20px #0b3d91;">
+      Habilitar tela cheia?</h1>
+    <p style="font-size:1.2rem;margin:5px 0 30px; color: #1e4271;">(recomendado)</p>
+    <button id="enterFullscreenBtn" class="enterFullscreenBtn"
+      style="padding:15px 40px;font-size:1.2rem;border-radius:30px;background:#0b3d91;color:#fff;border:none;box-shadow:0 0 15px #4b8fe6;cursor:pointer;transition:all 0.2s;">Entrar
+      em Tela Cheia</button>
+  </div>
+
+  <div class="birthdayCard" style="display: none;">
+    <div class="cardFront">
+      <div class="front-text">
+        <h3 class="happy">FELIZ</h3>
+        <h2 class="bday">ANIVERSÁRIO</h2>
+      </div>
+      <div class="wrap-deco">
+        <div class="decorations"></div>
+        <div class="decorationsTwo"></div>
+      </div>
+      <div class="wrap-decoTwo">
+        <div class="decorations"></div>
+        <div class="decorationsThree"></div>
+      </div>
+      <div class="plate">
+        <div class="cake"></div>
+        <div class="flame"></div>
       </div>
     </div>
-  </body>
+
+    <div class="cardInside">
+      <div class="inside-text">
+        <h3 class="happy">FELIZ</h3>
+        <h2 class="bday">ANIVERSÁRIO</h2>
+        <h3 class="toyou">!!!</h3>
+      </div>
+      <div class="wishes">
+        <p>Meu amigo, Rafael...</p>
+        <p>
+          Feliz aniversário!! Espero que seu dia seja cheio de muito amor e
+          risos! Que todos os seus desejos se realizem. Deus abençõe, muito obrigado por ser meu irmão de outra mãe!
+        </p>
+        <p class="name">Yan Kevin</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
 </html>

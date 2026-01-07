@@ -4,6 +4,17 @@ align-items: center;
 justify-content: center;
 height: 100vh;
 background-color: #00011c;
+overflow: hidden;
+}
+
+.enterFullscreenBtn {
+padding: 10px 20px;
+font-size: 16px;
+background-color: #1e4271;
+color: #cfe8ff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
 }
 
 .birthdayCard {
@@ -26,22 +37,27 @@ box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.15),
 
 .birthdayCard:hover .cardFront {
 transform: rotateY(-160deg);
+transition: 1s;
 }
 
 .birthdayCard:hover .front-text {
-display: none;
+transform: rotateY(180deg);
+transition: 1s;
 }
 
 .birthdayCard:hover .wrap-deco {
-display: none;
+transform: rotateY(-180deg);
+transition: 1s;
 }
 
 .birthdayCard:hover .wrap-decoTwo {
-display: none;
+transform: rotateY(180deg);
+transition: 1s;
 }
 
 .birthdayCard:hover .plate {
-display: none;
+transform: rotateY(180deg);
+transition: 1s;
 }
 
 .cardFront {
