@@ -6,6 +6,13 @@
    -o-user-select: none;
    scrollbar-width: none;
    box-shadow: none;
+   -moz-user-focus: transparent;
+   -webkit-user-focus: transparent;
+   -ms-user-focus: transparent;
+}
+
+*:focus {
+   outline: none;
 }
 
 body {
