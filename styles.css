@@ -1,3 +1,12 @@
+*{
+   user-select: none;
+   -ms-user-select: none;
+   -moz-user-select: none;
+   -webkit-user-select: none;
+   -o-user-select: none;
+   scrollbar-width: none;
+}
+
 body {
 display: flex;
 align-items: center;
@@ -304,11 +313,12 @@ font-weight: bold;
    width: 50px;
    height: 50px;
    background-color: rgba(22, 0, 144);
-   filter: drop-shadow(0 0 10px rgba(22, 0, 144, 0.8));
+   filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
    color: #cfe8ff;
    font-size: 30px;
    text-align: center;
    line-height: 50px;
+   border: 2px solid #b1d8fd;
    border-radius: 50%;
    position: fixed;
    bottom: 20px;

@@ -56,6 +56,7 @@ function toggleMusic() {
          musicButton.style.transform = 'scale(0.95)';
          musicButton.style.transition = 'transform 0.2s, opacity 0.2s';
          musicButton.textContent = '❚❚';
+         musicButton.style.fontSize = '20px';
          isPlaying = true;
    }
 };
