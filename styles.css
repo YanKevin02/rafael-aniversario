@@ -13,6 +13,7 @@
 
 *:focus {
    outline: none;
+   box-shadow: none;
 }
 
 body {
@@ -332,4 +333,9 @@ font-weight: bold;
    bottom: 20px;
    right: 20px;
    cursor: pointer;
+}
+
+.cardFront:focus, .cardInside:focus, .cardInside:focus, .birthdayCard:focus, .musicButton:focus {
+   outline: none;
+   box-shadow: none;
 }
