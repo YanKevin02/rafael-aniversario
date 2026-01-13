@@ -5,6 +5,7 @@
    -webkit-user-select: none;
    -o-user-select: none;
    scrollbar-width: none;
+   box-shadow: none;
 }
 
 body {
